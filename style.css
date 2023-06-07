@@ -1,0 +1,267 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-style:url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #183b56;
+    
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color:white;
+}
+ul{
+    list-style: none;
+}
+/* for giving left spaces */
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+
+.items{
+    display: flex;
+    align-items: center;
+}
+.nav-links ul {
+    justify-content: end;
+    gap: 40px;
+}
+
+.nav-links{
+    flex-basis: 730px;
+}
+.nav-toogle{
+    display: none;
+}
+.hover-link{
+    color:white;
+    transition: 0.2s ease-out;
+    font-size: 20px;
+}
+.hover-link:hover {
+    color:rgb(175, 152, 152);
+}
+.header-section {
+    display: flex;
+    align-items: center;
+    
+}
+.primary-button{
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    color: black !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px blueviolet;
+    transition: 0.2s ease-out;
+    cursor:pointer;
+    font-size: 20px;
+
+
+}
+.primary-button:hover{
+    background-color: rgb(0, 183, 255);
+
+}
+.secondary-button{
+    background-color:rgb(68, 46, 46);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px rgb(198, 196, 201);
+    transition: 0.2s ease-out;
+    margin-top: 10px;
+    cursor:pointer;
+    font-size: 20px;
+    
+
+}
+.secondary-button:hover{
+    background-color: rgb(0, 183, 255);
+
+}
+header {
+    padding: 50px 20px 0;
+    background-color: rgb(32, 255, 117);
+    color:white;
+    height: 650px;
+
+}
+.header-section{
+    justify-content: center;
+    gap: 50px ;
+}
+.header-right img{
+    width:600px;
+}
+.company-logo img{
+    max-width: 200px;
+    height: 100px;
+    
+}
+.p1{
+    color:rgb(111, 150, 126);
+    font-weight:bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 15px;
+
+}
+.p2{
+    color:black;
+    font-size: 35px;
+    font-weight: 500;
+}
+.companies-header{
+    text-align: center;
+    max-width: 40%;
+    margin-left: 30%;
+}
+.p3{
+    color:black;
+    font-size: 18px;
+    font-weight:300;
+    margin-top: 10px;
+}
+.logos{
+    display:flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.logo{
+    height: 80px;
+    width: 200px;
+}
+.button {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+.third{
+    margin-top: 50px;
+}
+.fourth{
+    margin-top: 50px;
+}
+.second-section{
+    display:flex;
+    align-items: center;
+}
+.second-section-left img{
+    width: 600px;
+}
+.second-section-right{
+    text-align: center;
+}
+.third-section {
+    display:flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.third-section-left{
+    text-align: center;
+}
+.third-section-right img{
+    width: 600px;
+}
+.standouts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    box-shadow: -2px -2px 4px 4px rgb(126, 111, 111) ;
+    margin: 50px 0px;
+    padding-left: 7px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    width: 23%;
+    height: 280px;
+    display: inline-block;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    
+}
+.box img{
+    height: 180px;
+    width: 180px;
+    border-radius: 250px;
+    padding-left: 5px;
+    
+    border: 2px solid black;
+
+}
+.box-1{
+    font-size:20px ;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.box-2{
+    font-size: 15px;
+    font-weight:900;
+    margin-top: 10px;
+}
+}
+.box p{
+    margin:auto;
+    padding-top: 0%;
+}
+.foot{
+    margin-top: 50px;
+    background-color:rgb(32, 255, 117) ;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.foot-1{
+    display:flex;
+    justify-content: space-evenly;
+}
+.icons img {
+    padding: 10px;
+}
+
+.header-right img{
+    border-radius: 300px;
+    background-color: white;
+}
+.button-1{
+    margin-top: 0px;
+}
+.reserved{
+    color: white;
+    
+}
+.dp{
+    color: white;
+}
+
+
